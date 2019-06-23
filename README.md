@@ -8,7 +8,7 @@
 ``` shell
 set -ex
 ```
-- change to current shell dir
+- Change to Current Shell Script Dir
 ``` shell
 cd ${0%/*}
 ```
