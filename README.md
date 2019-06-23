@@ -16,6 +16,9 @@ cd ${0%/*}
 ``` shell
 cat pom.xml | grep '<version>' | head -n 1 | awk -F '>' '{print $2}' | awk -F '<' '{print $1}'
 ```
-
+- Call github shell
+```
+curl -L github.com/OracleGao/linux-shell/raw/master/varsub.sh | bash -s -- Dockerfile.template Dockerfile
+```
 ## Refs
 - [curl方式执行shell脚本时传参数](https://sukbeta.github.io/curl-shell-args/)
