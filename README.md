@@ -18,4 +18,4 @@ cat pom.xml | grep '<version>' | head -n 1 | awk -F '>' '{print $2}' | awk -F '<
 ```
 
 ## Refs
-- (curl方式执行shell脚本时传参数)[https://sukbeta.github.io/curl-shell-args/]
+- [curl方式执行shell脚本时传参数](https://sukbeta.github.io/curl-shell-args/)
