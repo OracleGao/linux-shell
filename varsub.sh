@@ -12,5 +12,8 @@ fi
 
 while read line
 do
-eval echo "${line}" >> $2
+  line=${line//\"/\\\\\"} # 双引号替换为带转义的双引号 " -> \\"
+  line=${line//\'/\\\\\'} # 单引号替换为带转义的单引号 ' -> \\'
+
+  eval echo "${line}" >> $2
 done < $1
