@@ -5,7 +5,7 @@
 ###############################
 #!/usr/bin/env bash
 
-cd ${0%/*}
+cd $(dirname $0)
 
 if [ "$1" == "-h" ]; then
   echo "Usage $0 [-h] [pom.xml file] [tag]"
