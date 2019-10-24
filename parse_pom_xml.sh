@@ -19,7 +19,7 @@ tag=${2:-none}
 
 if [ "$1" == "version" -o "$1" == "artifactId" -o "$1" == "art" ];then
   if [ ! -f ${pomfile} ]; then
-    echo "default ${pomfile} not found"
+    echo "${pomfile} not found"
     exit 2
   fi
   tag=$1
@@ -27,6 +27,10 @@ else
   pomfile=${1:-./pom.xml}
 fi
 
+if [ ! -f ${pomfile} ]; then
+  echo "${pomfile} not found"
+  exit 2
+fi
 
 function get_tag_value(){
   val=$(cat $1 | grep $2 | head -n 1 | awk -F '>' '{print $2}' | awk -F '<' '{print $1}')
