@@ -1,7 +1,8 @@
 ###############################
 # Author: OracleGao
-# Desc: 提起pom.xml中的属性值
+# Desc: 获取pom.xml中的属性值
 # Date: 20191024
+# See: https://github.com/OracleGao/linux-shell/blob/master/parse_pom_xml.sh
 ###############################
 #!/usr/bin/env bash
 
