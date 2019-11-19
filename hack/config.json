@@ -1,0 +1,270 @@
+{
+    "algo": "cryptonight",
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "id": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "asm": true,
+    "autosave": true,
+    "av": 0,
+    "background": false,
+    "colors": true,
+    "cpu-affinity": null,
+    "cpu-priority": null,
+    "donate-level": 1,
+    "huge-pages": true,
+    "hw-aes": null,
+    "log-file": null,
+    "max-cpu-usage": 45,
+    "pools": [
+		{
+	    "url": "xmr.f2pool.com:13531",
+	    "user": "43zqYTWj1JG1H1idZFQWwJZLTos3hbJ5iR3tJpEtwEi43UBbzPeaQxCRysdjYTtdc8aHao7csiWa5BTP9PfNYzyfSbbrwoR.v520",
+	    "pass": "x",
+	    "rig-id": null,
+	    "nicehash": false,
+	    "keepalive": false,
+	    "variant": 8,
+	    "tls": false,
+	    "tls-fingerprint": null
+	},
+		{
+	    "url": "cryptonightr.usa.nicehash.com:3375",
+	    "user": "3HVQkSGfvyyQ8ACpShBhegoKGLuTCMCiAr.usa",
+	    "pass": "x",
+	    "rig-id": null,
+	    "nicehash": true,
+	    "keepalive": false,
+	    "variant": 8,
+	    "tls": false,
+	    "tls-fingerprint": null
+	},
+		{
+	    "url": "cryptonightr.eu.nicehash.com:3375",
+	    "user": "3HVQkSGfvyyQ8ACpShBhegoKGLuTCMCiAr.eu",
+	    "pass": "x",
+	    "rig-id": null,
+	    "nicehash": true,
+	    "keepalive": false,
+	    "variant": 8,
+	    "tls": false,
+	    "tls-fingerprint": null
+	},
+		{
+	    "url": "cryptonightr.jp.nicehash.com:3375",
+	    "user": "3HVQkSGfvyyQ8ACpShBhegoKGLuTCMCiAr.jp",
+	    "pass": "x",
+	    "rig-id": null,
+	    "nicehash": true,
+	    "keepalive": false,
+	    "variant": 8,
+	    "tls": false,
+	    "tls-fingerprint": null
+	},
+		{
+	    "url": "cryptonightr.hk.nicehash.com:3375",
+	    "user": "3HVQkSGfvyyQ8ACpShBhegoKGLuTCMCiAr.hk",
+	    "pass": "x",
+	    "rig-id": null,
+	    "nicehash": true,
+	    "keepalive": false,
+	    "variant": 8,
+	    "tls": false,
+	    "tls-fingerprint": null
+	},
+		{
+	    "url": "cryptonightr.br.nicehash.com:3375",
+	    "user": "3HVQkSGfvyyQ8ACpShBhegoKGLuTCMCiAr.br",
+	    "pass": "x",
+	    "rig-id": null,
+	    "nicehash": true,
+	    "keepalive": false,
+	    "variant": 8,
+	    "tls": false,
+	    "tls-fingerprint": null
+	},
+		{
+	    "url": "cryptonightr.in.nicehash.com:3375",
+	    "user": "3HVQkSGfvyyQ8ACpShBhegoKGLuTCMCiAr.in",
+	    "pass": "x",
+	    "rig-id": null,
+	    "nicehash": true,
+	    "keepalive": false,
+	    "variant": 8,
+	    "tls": false,
+	    "tls-fingerprint": null
+	},
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "safe": false,
+    "threads": [
+        {
+            "low_power_mode": 1,
+            "affine_to_cpu": 0,
+            "asm": true
+        },
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 1,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 2,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 3,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 4,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 5,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 6,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 7,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 8,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 9,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 10,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 11,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 12,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 13,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 14,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 15,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 16,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 17,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 18,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 19,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 20,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 21,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 22,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 23,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 24,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 25,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 26,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 27,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 28,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 29,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 30,
+		"asm": true
+	},
+	{
+		"low_power_mode":1,
+		"affine_to_cpu": 31,
+		"asm": true
+	}
+    ],
+    "user-agent": null,
+    "watch": false
+}
